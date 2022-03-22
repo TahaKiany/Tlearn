@@ -1,0 +1,78 @@
+// $(document).ready(function(){
+//     $('.header-down .menu-down > ul > li > ul').filter(function(){
+//         return(!$(this).find('ul').length)
+//     }).addClass('small-menu');
+// })
+$('#main').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    },
+    autoplay:true,
+})
+$('#product').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        },
+        1250:{
+            items:4
+        }
+    },
+    autoplay:true,
+})
+$('#banner-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    },
+    autoplay:true,
+})
+$('#related-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    },
+    autoplay:true,
+})
