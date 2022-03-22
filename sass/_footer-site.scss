@@ -1,0 +1,135 @@
+//in the name of god
+.footer{
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 20px;
+    .copy-right{
+        margin-top: 10px;
+        width: 100%;
+        p{
+            font-size: 16px;
+            color: rgb(221, 28, 28);
+            margin: 0px;
+        }
+    }
+    .footers{
+        width: 100%;
+        margin-top: 20px;
+        .foot-nav,.foot-about{
+            .head{
+                width: 100%;
+                margin-bottom: 20px;
+                h3{
+                    font-size: 22px;
+                    color: #333;
+                    border-bottom: 1px solid $main-color;
+                    padding-bottom: 10px;
+                }
+            }
+            .body{
+                p{
+                    font-size: 17px;
+                    color: #555;
+                    text-align: justify;
+                }
+                nav{
+                    ul{
+                        padding: 0px;
+                        margin: 0px;
+                        li{
+                            list-style-type: none;
+                            width: 50%;
+                            margin: 5px 0px;
+                            a{
+                                text-decoration: none;
+                                color: #555;
+                                font-size: 17px;
+                                transition: .7s;
+                                &:hover{
+                                    color: $main-color;
+                                    padding-right: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .foot-social-media,.foot-etemad{
+            .head{
+                width: 100%;
+                margin-bottom: 20px;
+                h3{
+                    font-size: 22px;
+                    color: #333;
+                    border-bottom: 1px solid $main-color;
+                    padding-bottom: 10px;
+                }
+            }
+            .body{
+                .images{
+                    .image{
+                        width: calc(50% - 10px);
+                        margin: 0px 5px;
+                        figure{
+                            width: 100%;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+                ul{
+                    padding: 0px;
+                    margin: 0px;
+                    li{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        list-style-type: none;
+                        width: calc(33% - 10px);
+                        margin: 5px;
+                        a{
+                            i{
+                                font-size: 30px;
+                            }
+                            font-size: 30px;
+                            text-decoration: none;
+                            padding: 15px;
+                            border-radius: 10px 12px;
+                            &.tel{
+                                background-color: rgb(0, 183, 255);
+                                color: white;
+                            }
+                            &.inst{
+                                background-color: rgb(255, 0, 85);
+                                color: white;
+                            }
+                            &.fac{
+                                background-color: rgb(0, 183, 255);
+                                color: white;
+                            }
+                            &.goo{
+                                background-color: rgb(226, 222, 10);
+                                color: white;
+                            }
+                            &.you{
+                                background-color: rgb(223, 22, 22);
+                                color: white;
+                            }
+                            &.yoa{
+                                background-color: rgb(217, 0, 255);
+                                color: white;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

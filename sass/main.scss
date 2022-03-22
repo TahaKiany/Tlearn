@@ -1,0 +1,39 @@
+@import "fonts.scss";
+//main styles
+body{
+    font-size: 14px;
+    text-align: right;
+    direction: rtl;
+    line-height: 30px;
+    background-color: #eee;
+    font-family: 'iransans';
+    figure {
+        line-height: 0;
+        margin: 0;
+    }
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0;
+}
+.row{
+    margin: 0px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+.line {
+    width: 90%;
+    background-color: #ddd;
+    height: 1px;
+    margin: 30px auto;
+}
+@import "imports.scss";
